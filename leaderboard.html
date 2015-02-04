@@ -20,19 +20,17 @@
     <title></title>
 </head>
 <body>
-    <div class="wrapper">
-        <table class="table table-bordered">
-            <thead>
-                <th>Lag</th>
-                <th>Poäng</th>
-            </thead>
-            <tbody data-bind="foreach: leaderboard">
-                <tr>
-                    <td data-bind="text: username"></td>
-                    <td data-bind="text: score"></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <table class="table table-bordered">
+        <thead>
+            <th>Lag</th>
+            <th>Poäng</th>
+        </thead>
+        <tbody data-bind="foreach: leaderboard">
+            <tr>
+                <td data-bind="text: username"></td>
+                <td data-bind="text: score"></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
