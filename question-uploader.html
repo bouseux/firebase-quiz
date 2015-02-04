@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/knockout/dist/knockout.js"></script>
+
+    <script src="js/app-question-uploader.js" defer="defer"></script>
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title></title>
+</head>
+<body>
+    <form data-bind="submit: addQuestionToDb">
+        <p>Fråga: </p><input type="text" data-bind="value: question.question">
+        <p>Alt1 & Rätt svar: </p><input type="text" data-bind="value: question.option1">
+        <p>Alt2: </p><input type="text" data-bind="value: question.option2">
+        <p>Alt3: </p><input type="text" data-bind="value: question.option3">
+        <button type="submit">Lägg till fråga</button>
+    </form>
+</body>
+</html>

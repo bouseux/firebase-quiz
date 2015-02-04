@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/knockout/dist/knockout.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+
+    <script src="js/app-quiz.js" defer="defer"></script>
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <title></title>
+</head>
+<body>
+    <div class="header">
+        <h2 data-bind="text: user.username"></h2>
+    </div>
+
+    <div class="form-group">
+        <form class="form-inline" data-bind="submit: registerUser, visible: getReadyVisible">
+            <input class="form-control" type="text" placeholder="Lagnamn" data-bind="value: user.username" required>
+            <button class="btn btn-success" type="submit">Skapa lag</button>
+        </form>
+    </div>
+
+    <ul data-bind="foreach: currentOptions, visible: gameInProgress">
+        <button class="btn btn-success" data-bind="text: $data, click: function(value) { $root.checkAnswer($data) }"></button></br>
+    </ul>
+</body>
+</html>

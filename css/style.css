@@ -1,0 +1,58 @@
+body {
+    padding-top: 0;
+    background-image: url("/img/background.png");
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+th {
+    font-size: 22px;
+}
+
+td {
+    font-size: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #e9e9e9;
+    padding: 5%;
+    margin: 20%;
+    border-radius: 15px;
+}
+
+.form-inline .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.header {
+    /*color: #ffffff;
+    background-color: #222222;
+    opacity: 0.8;*/
+}
+
+ul {
+    padding: 30px
+}

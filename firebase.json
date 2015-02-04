@@ -1,0 +1,9 @@
+{
+  "firebase": "new-years-quiz",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
