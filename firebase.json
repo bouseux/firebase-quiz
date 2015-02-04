@@ -1,5 +1,5 @@
 {
-  "firebase": "pauline-party-quiz",
+  "firebase": "fb-quiz",
   "public": ".",
   "ignore": [
     "firebase.json",

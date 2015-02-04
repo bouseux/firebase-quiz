@@ -1,12 +1,11 @@
 body {
     padding-top: 0;
-    background-image: url("/img/background.png");
-    background-size: cover;
+    /*background-image: url("/img/background.png");
+    background-size: cover;*/
     font-family: 'Open Sans', sans-serif;
 }
 
 th {
-    font-family: 'Playball', cursive;
     font-size: 30px;
 }
 
