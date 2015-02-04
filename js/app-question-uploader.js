@@ -1,6 +1,6 @@
 (function() {
     var uri = {
-        questionsUri : 'https://new-years-quiz.firebaseio.com/questions/'
+        questionsUri : 'https://pauline-party-quiz.firebaseio.com/questions/'
     }
 
     var connection = {

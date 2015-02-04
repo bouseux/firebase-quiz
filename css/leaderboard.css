@@ -1,11 +1,24 @@
 body {
+    padding-top: 0;
+    background-image: url("/img/background.png");
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
 }
 
 th {
+    font-family: 'Playball', cursive;
     font-size: 30px;
 }
 
 td {
     font-size: 28px;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    padding: 5%;
+    margin-top: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 15px;
 }

@@ -2,9 +2,9 @@
     var i = 0;
 
     var uri = {
-        mainUri : 'https://new-years-quiz.firebaseio.com/',
-        questionsUri : 'https://new-years-quiz.firebaseio.com/questions/',
-        leaderboardUri : 'https://new-years-quiz.firebaseio.com/leaderboard'
+        mainUri : 'https://pauline-party-quiz.firebaseio.com/',
+        questionsUri : 'https://pauline-party-quiz.firebaseio.com/questions/',
+        leaderboardUri : 'https://pauline-party-quiz.firebaseio.com/leaderboard'
     }
 
     var connection = {
